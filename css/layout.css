@@ -1,0 +1,41 @@
+/* CSS for Layout */
+
+html,body {
+    width:100%;
+    margin:0;
+}
+
+#header {
+    width:100%;
+    padding-bottom:12px;
+}
+
+#nav {
+    width:100%;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.head {
+    width:25%;
+}
+
+#main {
+    width:99%;
+}
+
+.leaf {
+    margin-top:6px;
+}
+
+.fill {
+    margin:10px;
+}
+
+.class {
+    width:50%;
+}
+
+.assignment {
+    width="100%"
+}

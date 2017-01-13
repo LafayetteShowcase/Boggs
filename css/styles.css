@@ -1,0 +1,92 @@
+/* CSS for Styles */
+
+/*
+Palette
+-------
+neutral:#CFD0D1
+text:#151513
+primary:#F00900
+secondary:#800500
+accent:#004680
+*/
+
+:root {
+    --primary:#2E86AB;
+    --secondary:#A3BCF9;
+    --light:#D1D2F9;
+    --neutral:#F0F0F0;
+    --accent:#FF220C;
+    --text:#333333;
+}
+
+#header {
+    color:var(--text);
+    font-size:72px;
+    font-family:monospace;
+    font-weight:bold;
+    text-align:center;
+}
+
+#nav {
+    background-color:white;
+    border-top:solid var(--light) 4px;
+    border-bottom:solid var(--light) 4px;
+}
+
+.head {
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    background-color:white;
+    color:var(--text);
+    transition:background-color 0.5s,color 0.5s;
+    text-align:center;
+    border-radius:2px;
+    
+}
+
+.link:hover {
+    background-color:var(--neutral);
+    color:var(--accent);
+}
+
+#main {
+    color:var(--text);
+    font-family:monospace;
+    font-size:18px;
+}
+
+.leaf {
+    border-top: dashed var(--neutral) 2px;
+    border-left: dashed var(--neutral) 2px;
+    border-right:solid var(--primary) 4px;
+    border-bottom:solid var(--primary) 4px;
+    border-top-right-radius:2px;
+    border-bottom-left-radius:2px;
+}
+
+.class {
+    border:none;
+    background-color:white;
+    text-align:center;
+    line-height:1000%;
+    font-weight:bold;
+    padding:2px;
+}
+
+.class:hover {
+    border:solid var(--light) 2px;
+    background-color:var(--neutral);
+    padding:0;
+    color:var(--primary);
+    transition:background-color 0.5s,color 0.5s;
+}
+
+.assignment .fill h1 {
+    text-decoration:underline;
+}
+
+h1 {
+    color:var(--accent);
+    font-family:monospace;
+}
